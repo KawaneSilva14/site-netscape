@@ -1,0 +1,32 @@
+.legado {
+  display: flex;
+  width: 1000px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: var(--card-bg);
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: var(--card-shadow);
+}
+
+.legado h1{
+  font-size: 40px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: var(--raycast-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2px;
+  text-shadow: 0 4px 15px rgba(123, 63, 228, 0.5), 0 0 30px rgba(255, 45, 85, 0.3);
+}
+
+.legado img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 1em;
+  
+}

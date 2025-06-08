@@ -1,0 +1,38 @@
+.museu {
+  width: 2000px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.museu h1 {
+  font-size: 40px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: var(--raycast-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2px;
+  text-shadow: 0 4px 15px rgba(123, 63, 228, 0.5), 0 0 30px rgba(255, 45, 85, 0.3);
+  margin: 0 auto;
+}
+
+.museu div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.museu img{
+  width: 300px;
+  
+
+
+}

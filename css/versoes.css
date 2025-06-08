@@ -1,0 +1,106 @@
+.versoes {
+  width: 2000px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.versoes h1 {
+  font-size: 40px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: var(--raycast-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2px;
+  text-shadow: 0 4px 15px rgba(123, 63, 228, 0.5), 0 0 30px rgba(255, 45, 85, 0.3);
+}
+
+#navegadores {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+  justify-items: center;
+  margin: 10px auto;
+  max-width: 1500px;
+  padding: 0 15px;
+}
+
+/* Cada card */
+.card {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+  background: var(--raycast-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2px;
+  text-shadow: 0 4px 15px rgba(123, 63, 228, 0.5), 0 0 30px rgba(255, 45, 85, 0.3);
+  font-size: 2em;
+}
+
+/* Parte giratória */
+.card-inner {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+/* Girar ao hover */
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Faces */
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  backface-visibility: hidden;
+  border-radius: 1em;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Imagem */
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Verso */
+.card-back {
+  background-color: var(--card-bg);
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: var(--card-shadow);
+  transform: rotateY(180deg);
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+  background: var(--raycast-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -2px;
+  text-shadow: 0 4px 15px rgba(123, 63, 228, 0.5), 0 0 30px rgba(255, 45, 85, 0.3);
+  font-size: 1.2em;
+}
