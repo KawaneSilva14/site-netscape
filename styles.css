@@ -125,9 +125,6 @@ nav {
   outline-offset: 2px;
 }
 
-.cta-button a{
-  text-decoration: none;
-}
 
 .nav-right {
   display: flex;
@@ -184,6 +181,11 @@ nav {
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: var(--glow);
+  text-decoration: none;
+}
+
+.cta-button a{
+  text-decoration: none;
 }
 
 .cta-button:hover {
