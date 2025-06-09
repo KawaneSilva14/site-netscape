@@ -30,3 +30,7 @@
   border-radius: 1em;
   
 }
+
+.cta-button a{
+  text-decoration: none;
+}

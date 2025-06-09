@@ -104,3 +104,7 @@
   text-shadow: 0 4px 15px rgba(123, 63, 228, 0.5), 0 0 30px rgba(255, 45, 85, 0.3);
   font-size: 1.2em;
 }
+
+.cta-button a{
+  text-decoration: none;
+}

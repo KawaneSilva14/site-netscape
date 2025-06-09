@@ -125,6 +125,10 @@ nav {
   outline-offset: 2px;
 }
 
+.cta-button a{
+  text-decoration: none;
+}
+
 .nav-right {
   display: flex;
   align-items: center;

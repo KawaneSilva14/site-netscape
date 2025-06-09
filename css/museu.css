@@ -32,7 +32,8 @@
 
 .museu img{
   width: 300px;
-  
+}
 
-
+.cta-button a{
+  text-decoration: none;
 }
